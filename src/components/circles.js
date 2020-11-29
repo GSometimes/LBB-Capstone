@@ -60,8 +60,8 @@ export default function Circles(props) {
             onClick={() => handleClick("black")}
           ></div>
         </div>
-        {/* <div><i class="fas fa-book-open"></i></div> */}
         <div className="footer">Designs by Sometimes</div>
+        {/* <div><i class="fas fa-book-open"></i></div> */}
       </div>
 
       <Switch>

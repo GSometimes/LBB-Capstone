@@ -23,16 +23,6 @@ h1 {
   }
 }
 
-/* Revisit this and try to add fade out transition with state. */
-/* @keyframes fadeout {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-} */
-
 @keyframes animate1 {
   0% {
     width: 0;

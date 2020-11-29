@@ -83,3 +83,6 @@ img {
   margin-top: 12%;
   animation: fadein 2s;
 }
+img:hover {
+  opacity: 0.9;
+}
