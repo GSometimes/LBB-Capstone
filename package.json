@@ -5,6 +5,8 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "contentful": "7.15.0",
+    "graphql-playground-html": "1.6.29",
     "react": "17.0.0",
     "react-beautiful-dnd": "13.0.0",
     "react-dnd-html5-backend": "11.1.3",

@@ -1,0 +1,82 @@
+h1 {
+  left: 50%;
+  animation: fadein 2s;
+  margin: 15%;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.aboutBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid rgb(110, 14, 10);
+  z-index: -1;
+  animation: animate2 1s linear forwards;
+}
+
+@keyframes animate2 {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 80%;
+    height: 0;
+    border-top-color: rgb(110, 14, 10);
+    border-right-color: rgb(110, 14, 10);
+    border-bottom-color: rgb(110, 14, 10);
+    border-left-color: rgb(110, 14, 10);
+  }
+
+  100% {
+    width: 80%;
+    height: 80%;
+    border-top-color: rgb(110, 14, 10);
+    border-right-color: rgb(110, 14, 10);
+    border-bottom-color: rgb(110, 14, 10);
+    border-left-color: rgb(110, 14, 10);
+  }
+}
+
+.aboutContainer {
+  position: fixed;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 30%;
+  overflow: scroll;
+  z-index: 1;
+}
+
+.inspoContainer {
+  position: fixed;
+  top: 50%;
+  right: 27%;
+  transform: translate(50%, -50%);
+  height: 100%;
+  width: 30%;
+  overflow: scroll;
+  z-index: 1;
+}
+
+.aboutImages {
+  max-width: 100%;
+  height: 35%;
+  animation: fadein 2s;
+  margin-top: 50%;
+}

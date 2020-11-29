@@ -1,0 +1,97 @@
+.contactBox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid rgb(97, 63, 117);
+  z-index: -1;
+  animation: animate3 1s linear forwards;
+}
+
+#contactPosition {
+  left: 50%;
+  animation: fadein 2s;
+  margin: 12%;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 80%;
+    height: 0;
+    border-top-color: rgb(97, 63, 117);
+    border-right-color: rgb(97, 63, 117);
+    border-bottom-color: rgb(97, 63, 117);
+    border-left-color: rgb(97, 63, 117);
+  }
+
+  100% {
+    width: 80%;
+    height: 80%;
+    border-top-color: rgb(97, 63, 117);
+    border-right-color: rgb(97, 63, 117);
+    border-bottom-color: rgb(97, 63, 117);
+    border-left-color: rgb(97, 63, 117);
+  }
+}
+
+.linkContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid black;
+  height: 250px;
+  width: 250px;
+  z-index: -1;
+}
+
+.fa-github {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+}
+
+.fa-linkedin-in {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 50px;
+}
+
+.fa-wine-glass-alt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 50px;
+}
+
+.fa-envelope {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 63, 117);
+}
