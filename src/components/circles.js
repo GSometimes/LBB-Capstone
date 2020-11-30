@@ -31,7 +31,7 @@ export default function Circles(props) {
   };
 
   return (
-    <>
+    <div className="navBar">
       <div className="displayBox">
         <div
           style={activeCircle.current === "blue" ? style : {}}
@@ -61,7 +61,9 @@ export default function Circles(props) {
           ></div>
         </div>
         <div className="footer">Designs by Sometimes</div>
-        {/* <div><i class="fas fa-book-open"></i></div> */}
+        <a className="bookNav" href="/">
+          <i class="fas fa-book-open"></i>
+        </a>
       </div>
 
       <Switch>
@@ -78,6 +80,6 @@ export default function Circles(props) {
           <Projects />
         </Route>
       </Switch>
-    </>
+    </div>
   );
 }

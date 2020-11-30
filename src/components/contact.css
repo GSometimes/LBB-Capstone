@@ -99,3 +99,7 @@ a {
   text-decoration: none;
   color: rgb(97, 63, 117);
 }
+
+a:hover {
+  color: black;
+}

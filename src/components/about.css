@@ -75,7 +75,7 @@ h1 {
 }
 
 .aboutImages {
-  max-width: 100%;
+  width: 100%;
   height: 35%;
   animation: fadein 2s;
   margin-top: 50%;

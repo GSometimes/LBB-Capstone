@@ -30,7 +30,7 @@ export default function App() {
           render={(routerProps) => <Circles {...routerProps} />}
         />
       </Switch>
-      <Test/>
+      {/* <Test/> */}
     </div>
   );
 }
