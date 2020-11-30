@@ -6,6 +6,10 @@
   margin-top: 10%;
 }
 
+.entryText {
+  mix-blend-mode: difference;
+}
+
 @media only screen and (max-width: 768px) and (min-width: 426px) {
   .entryImages {
     top: 50%;

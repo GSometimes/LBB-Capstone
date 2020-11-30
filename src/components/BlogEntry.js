@@ -9,7 +9,12 @@ const BlogEntry = (props) => {
 
   return (
     <div className="blog-entry">
-      <img className="entryImages" src={props.image} alt="" onClick={() => setToggle(!toggle)} />
+      <img
+        className="entryImages"
+        src={props.image}
+        alt=""
+        onClick={() => setToggle(!toggle)}
+      />
 
       <div className={`entryContainer ${expand}`}>
         <p className="entryText">{props.entry}</p>

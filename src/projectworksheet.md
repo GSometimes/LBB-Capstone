@@ -1,10 +1,10 @@
 # Little Black Book - Capstone
 
-Little Black Book is a personal blog/journal that I've made showcasing unique animations and is an ode to one of my instructors who's been a huge support and a mentor to me. It'll be a medium for you to house your all of your thoughts, personal and professional.
+Little Black Book is a personal blog/journal that I've made showcasing unique animations and is an ode to one of my instructors who's been a huge support and a mentor to me.
 
 # Project Overview
 
-For my Capstone project I'm going to be building a blog/journal application that utilizes Next.js, D3/SVG Animations, and SCSS to create a unique, visually appealing application.
+For my Capstone project I'm going to be building a blog/journal application that utilizes React, Contentful, and CSS Animations to create a visually appealing application.
 
 ## Project Links
 
@@ -23,7 +23,7 @@ Use this section to include info about the API you have chosen and a code snippe
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
+Utilized Excalidraw to create the wireframing for the project, 10/10 will use again.
 
 - [Mobile Mockup](https://i.imgur.com/W9C7vsC.png)
 - [Tablet Mockup](https://i.imgur.com/qLa2UiL.png)
@@ -83,6 +83,7 @@ Time frames are also key in the development cycle. You have limited time to code
 - Next.js
 - Framer Motion
 - CSS Styled Components
+- Contentful
 
 ## Code Snippet
 
