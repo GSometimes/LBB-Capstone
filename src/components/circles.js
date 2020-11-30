@@ -61,9 +61,8 @@ export default function Circles(props) {
           ></div>
         </div>
         <div className="footer">Designs by Sometimes</div>
-        <a className="bookNav" href="/">
-          <i class="fas fa-book-open"></i>
-        </a>
+
+        {/* <a className="bookNav" href="/"><i class="fas fa-book-open"></i></a> */}
       </div>
 
       <Switch>

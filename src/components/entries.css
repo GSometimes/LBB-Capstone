@@ -86,7 +86,55 @@ img {
 
 .entryContainer {
   border: 2px solid black;
-  height: 25%;
+  height: 0;
   width: 100%;
   overflow: scroll;
+  transition: all 1s;
+  z-index: 1;
+}
+
+.expand {
+  height: 200px;
+  top: 50%;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .blogEntries {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 30%;
+    overflow: scroll;
+    z-index: 1;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blogEntries2 {
+    position: fixed;
+    top: 50%;
+    right: 25%;
+    transform: translate(50%, -50%);
+    height: 100%;
+    width: 30%;
+    overflow: scroll;
+    z-index: 1;
+  }
+ */
+
+  .entryContainer {
+    border: 2px solid black;
+    height: 0;
+    width: 100%;
+    overflow: scroll;
+    transition: all 1s;
+  }
+
+  .expand {
+    height: 150px;
+    top: 50%;
+  }
 }

@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./circles.css";
 import "./about.css";
+import "../styles.css";
 
 export default function About() {
+  const [toggle, setToggle] = useState(false);
+
+  const expand = toggle ? "expand" : "";
+
   return (
     <>
       <h1>About</h1>
       <div className="aboutBox"></div>
       <div className="aboutContainer">
-        <img src="https://i.imgur.com/Ns21Qli.jpg" alt=""></img>
-        <div className="entryContainer">
+        <img
+          className="aboutImages"
+          src="https://i.imgur.com/Ns21Qli.jpg"
+          alt=""
+          onClick={() => setToggle(!toggle)}
+        />
+        <div className={`entryContainer ${expand}`}>
           <p className="entryText">
             My name is Gore and I am a Chef turned Designer. I’m a father,
             foodie, and wino who is always looking to make lasting memories. My
@@ -22,8 +32,13 @@ export default function About() {
         </div>
       </div>
       <div className="inspoContainer">
-        <img src="https://i.imgur.com/MUYbUgF.jpg" alt=""></img>
-        <div className="entryContainer">
+        <img
+          className="aboutImages"
+          src="https://i.imgur.com/MUYbUgF.jpg"
+          alt=""
+          onClick={() => setToggle(!toggle)}
+        />
+        <div className={`entryContainer ${expand}`}>
           <p className="entryText">
             Halfway through the Software Engineering Program at General Assembly
             I was at a very low point, felt really lost, and on the brink of

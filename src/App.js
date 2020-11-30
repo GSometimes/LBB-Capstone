@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import Circles from "./components/circles";
 import { Switch, Route, Link } from "react-router-dom";
-import Test from "./components/test"
+
 
 export default function App() {
   return (
@@ -30,7 +30,6 @@ export default function App() {
           render={(routerProps) => <Circles {...routerProps} />}
         />
       </Switch>
-      {/* <Test/> */}
     </div>
   );
 }

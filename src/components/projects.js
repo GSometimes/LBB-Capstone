@@ -9,18 +9,18 @@ export default function Projects() {
       <div className="projectBox"></div>
       <div className="projectContainer1">
         <a href="https://heidinicolephoto.com/children">
-          <img src="https://i.imgur.com/ZIl4Qnv.jpg"></img>
+          <img src="https://i.imgur.com/ZIl4Qnv.jpg" alt=""></img>
         </a>
         <a href="https://heidinicolephoto.com/children">
-          <img src="https://i.imgur.com/PjKhVG7.jpg"></img>
+          <img src="https://i.imgur.com/PjKhVG7.jpg" alt=""></img>
         </a>
       </div>
       <div className="projectContainer2">
         <a href="https://heidinicolephoto.com/children">
-          <img src="https://i.imgur.com/ug7SFGe.jpg"></img>
+          <img src="https://i.imgur.com/ug7SFGe.jpg" alt=""></img>
         </a>
         <a href="https://heidinicolephoto.com/children">
-          <img src="https://i.imgur.com/z8Zopem.jpg"></img>
+          <img src="https://i.imgur.com/z8Zopem.jpg" alt=""></img>
         </a>
       </div>
     </>
