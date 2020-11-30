@@ -8,7 +8,7 @@ export default function Contact() {
       <h1 id="contactPosition">Contact</h1>
       <div className="contactBox"></div>
       <div className="linkContainer">
-        <a href="https://github.com/GSometimes">
+        <a href="https://github.com/GSometimes/LBB-Capstone">
           <i class="fab fa-github" />
         </a>
         <a href="https://www.linkedin.com/in/gore-sometimes/">
