@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Circles from "./components/circles";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 
 export default function App() {
