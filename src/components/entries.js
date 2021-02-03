@@ -25,7 +25,7 @@ export default function Entries() {
   const Entries = entries.map((entry) => (
     <div className="entry" key={entry.sys.id}>
       <h5>{entry.fields.name}</h5>
-      {entry.fields.entry}
+      <p>{entry.fields.entry}</p>
     </div>
   ));
 
