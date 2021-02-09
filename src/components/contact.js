@@ -14,7 +14,7 @@ export default function Contact() {
         <a href="https://www.linkedin.com/in/gore-sometimes/">
           <i class="fab fa-linkedin-in" />
         </a>
-        <a href="http://www.portfoliobysometimes.com/">
+        <a href="http://www.goresometimes.com/">
           <i class="fas fa-wine-glass-alt" />
         </a>
         <a href="mailto:gsometimes@outlook.com">
